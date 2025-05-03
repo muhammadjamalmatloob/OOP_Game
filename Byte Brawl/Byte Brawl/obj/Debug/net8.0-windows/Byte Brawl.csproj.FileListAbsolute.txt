@@ -1,0 +1,17 @@
+D:\OOP Game\Byte Brawl\Byte Brawl\bin\Debug\net8.0-windows\Byte Brawl.exe
+D:\OOP Game\Byte Brawl\Byte Brawl\bin\Debug\net8.0-windows\Byte Brawl.deps.json
+D:\OOP Game\Byte Brawl\Byte Brawl\bin\Debug\net8.0-windows\Byte Brawl.runtimeconfig.json
+D:\OOP Game\Byte Brawl\Byte Brawl\bin\Debug\net8.0-windows\Byte Brawl.dll
+D:\OOP Game\Byte Brawl\Byte Brawl\bin\Debug\net8.0-windows\Byte Brawl.pdb
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\Byte_Brawl.Form1.resources
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\Byte_Brawl.Properties.Resources.resources
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\Byte Brawl.csproj.GenerateResource.cache
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\Byte Brawl.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\Byte Brawl.AssemblyInfoInputs.cache
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\Byte Brawl.AssemblyInfo.cs
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\Byte Brawl.csproj.CoreCompileInputs.cache
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\Byte Brawl.dll
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\refint\Byte Brawl.dll
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\Byte Brawl.pdb
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\Byte Brawl.genruntimeconfig.cache
+D:\OOP Game\Byte Brawl\Byte Brawl\obj\Debug\net8.0-windows\ref\Byte Brawl.dll
