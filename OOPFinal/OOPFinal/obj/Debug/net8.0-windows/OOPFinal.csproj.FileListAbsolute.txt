@@ -16,3 +16,4 @@ D:\OOP Game\OOPFinal\OOPFinal\obj\Debug\net8.0-windows\OOPFinal.pdb
 D:\OOP Game\OOPFinal\OOPFinal\obj\Debug\net8.0-windows\OOPFinal.genruntimeconfig.cache
 D:\OOP Game\OOPFinal\OOPFinal\obj\Debug\net8.0-windows\ref\OOPFinal.dll
 D:\OOP Game\OOPFinal\OOPFinal\obj\Debug\net8.0-windows\OOPFinal.MainMenu02.resources
+D:\OOP Game\OOPFinal\OOPFinal\obj\Debug\net8.0-windows\OOPFinal.sourcelink.json

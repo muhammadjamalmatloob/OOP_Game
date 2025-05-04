@@ -30,6 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu02));
             panel1 = new Panel();
+            groupBox3 = new GroupBox();
+            radioButton5 = new RadioButton();
+            radioButton4 = new RadioButton();
+            radioButton3 = new RadioButton();
+            button3 = new Button();
+            button4 = new Button();
             groupBox1 = new GroupBox();
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
@@ -46,6 +52,7 @@
             sound = new Button();
             start = new Button();
             panel1.SuspendLayout();
+            groupBox3.SuspendLayout();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -58,8 +65,9 @@
             panel1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Controls.Add(groupBox2);
+            panel1.Controls.Add(groupBox3);
             panel1.Controls.Add(groupBox1);
+            panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(level);
             panel1.Controls.Add(location);
             panel1.Controls.Add(sound);
@@ -68,6 +76,85 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(984, 661);
             panel1.TabIndex = 1;
+            // 
+            // groupBox3
+            // 
+            groupBox3.BackColor = Color.Tan;
+            groupBox3.Controls.Add(radioButton5);
+            groupBox3.Controls.Add(radioButton4);
+            groupBox3.Controls.Add(radioButton3);
+            groupBox3.Controls.Add(button3);
+            groupBox3.Controls.Add(button4);
+            groupBox3.Location = new Point(375, 139);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(299, 201);
+            groupBox3.TabIndex = 6;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Level";
+            groupBox3.Visible = false;
+            // 
+            // radioButton5
+            // 
+            radioButton5.AutoSize = true;
+            radioButton5.Location = new Point(30, 85);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(51, 19);
+            radioButton5.TabIndex = 4;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "Hard";
+            radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(30, 60);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(70, 19);
+            radioButton4.TabIndex = 3;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "Medium";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(30, 35);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(48, 19);
+            radioButton3.TabIndex = 2;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Easy";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.DarkSeaGreen;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Segoe UI", 11.25F);
+            button3.ForeColor = SystemColors.ButtonHighlight;
+            button3.Location = new Point(109, 157);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 31);
+            button3.TabIndex = 1;
+            button3.Text = "Apply";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.DarkSeaGreen;
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Segoe UI", 11.25F);
+            button4.ForeColor = SystemColors.ButtonHighlight;
+            button4.Location = new Point(209, 157);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 31);
+            button4.TabIndex = 0;
+            button4.Text = "Back";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click_1;
             // 
             // groupBox1
             // 
@@ -145,7 +232,7 @@
             groupBox2.Controls.Add(pictureBox1);
             groupBox2.Controls.Add(button1);
             groupBox2.Controls.Add(button2);
-            groupBox2.Location = new Point(121, 218);
+            groupBox2.Location = new Point(131, 224);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(774, 353);
             groupBox2.TabIndex = 5;
@@ -278,6 +365,8 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Main Menu";
             panel1.ResumeLayout(false);
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -285,6 +374,16 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
@@ -305,5 +404,11 @@
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
+        private GroupBox groupBox3;
+        private RadioButton radioButton5;
+        private RadioButton radioButton4;
+        private RadioButton radioButton3;
+        private Button button3;
+        private Button button4;
     }
 }

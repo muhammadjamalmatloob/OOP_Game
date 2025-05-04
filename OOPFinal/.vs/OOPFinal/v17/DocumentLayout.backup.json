@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\OOP Game\\OOPFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|d:\\oop game\\oopfinal\\oopfinal\\mainmenu02.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\mainmenu02.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|d:\\oop game\\oopfinal\\oopfinal\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|d:\\oop game\\oopfinal\\oopfinal\\mainmenu02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\mainmenu02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\mainmenu02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|d:\\oop game\\oopfinal\\oopfinal\\mainmenu02.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\mainmenu02.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|d:\\oop game\\oopfinal\\oopfinal\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|D:\\OOP Game\\OOPFinal\\oopfinal\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B9D77CD-0100-4B65-BFDE-231639C907E6}|OOPFinal\\OOPFinal.csproj|d:\\oop game\\oopfinal\\oopfinal\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,36 +38,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainMenu02.cs [Design]",
               "DocumentMoniker": "D:\\OOP Game\\OOPFinal\\OOPFinal\\MainMenu02.cs",
               "RelativeDocumentMoniker": "OOPFinal\\MainMenu02.cs",
               "ToolTip": "D:\\OOP Game\\OOPFinal\\OOPFinal\\MainMenu02.cs [Design]",
               "RelativeToolTip": "OOPFinal\\MainMenu02.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:22:28.433Z",
+              "WhenOpened": "2025-05-04T06:28:41.675Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Settings.cs",
               "DocumentMoniker": "D:\\OOP Game\\OOPFinal\\OOPFinal\\Settings.cs",
               "RelativeDocumentMoniker": "OOPFinal\\Settings.cs",
               "ToolTip": "D:\\OOP Game\\OOPFinal\\OOPFinal\\Settings.cs",
               "RelativeToolTip": "OOPFinal\\Settings.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAlwBoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAtwA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T12:53:34.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainMenu.cs [Design]",
               "DocumentMoniker": "D:\\OOP Game\\OOPFinal\\OOPFinal\\MainMenu.cs",
               "RelativeDocumentMoniker": "OOPFinal\\MainMenu.cs",
@@ -79,26 +79,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainMenu02.cs",
               "DocumentMoniker": "D:\\OOP Game\\OOPFinal\\OOPFinal\\MainMenu02.cs",
               "RelativeDocumentMoniker": "OOPFinal\\MainMenu02.cs",
               "ToolTip": "D:\\OOP Game\\OOPFinal\\OOPFinal\\MainMenu02.cs",
               "RelativeToolTip": "OOPFinal\\MainMenu02.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAtwCcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAtwCgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T12:02:56.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainMenu02.Designer.cs",
               "DocumentMoniker": "D:\\OOP Game\\OOPFinal\\OOPFinal\\MainMenu02.Designer.cs",
               "RelativeDocumentMoniker": "OOPFinal\\MainMenu02.Designer.cs",
               "ToolTip": "D:\\OOP Game\\OOPFinal\\OOPFinal\\MainMenu02.Designer.cs",
               "RelativeToolTip": "OOPFinal\\MainMenu02.Designer.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAD4v8oAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAD4v40AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T12:11:55.485Z",
               "EditorCaption": ""
@@ -113,8 +113,7 @@
               "RelativeToolTip": "OOPFinal\\MainMenu.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAA1wBYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T11:29:20.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T11:29:20.342Z"
             },
             {
               "$type": "Document",

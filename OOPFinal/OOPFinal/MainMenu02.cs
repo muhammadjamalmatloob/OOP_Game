@@ -16,11 +16,12 @@ namespace OOPFinal
         {
             InitializeComponent();
             radioButton1.Checked = true;
+            radioButton3.Checked = true;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            groupBox3.Visible = true;
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -38,7 +39,6 @@ namespace OOPFinal
             {
                 Settings.SetSound(false);
             }
-            groupBox1.Visible = false; 
             MessageBox.Show("Changes applied successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
@@ -115,6 +115,28 @@ namespace OOPFinal
                 Settings.SetTheme(2);
             }
             MessageBox.Show("Changes applied successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (radioButton3.Checked)
+            {
+                Settings.SetLevel(1);
+            }
+            else if (radioButton4.Checked)
+            {
+                Settings.SetLevel(2);
+            }
+            else if (radioButton5.Checked)
+            {
+                Settings.SetLevel(3);
+            }
+            MessageBox.Show("Changes applied successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            groupBox3.Visible = false;
         }
     }
 }
