@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using OOPFinal.UI;
 using OOPFinal.Utility;
 
 namespace OOPFinal
 {
+    
     public partial class MainMenu02 : Form
     {
-        public MainMenu02()
+        public static GameForm gameForm;
+        public MainMenu02(GameForm gameForm = null)
         {
+            MainMenu02.gameForm = gameForm;
             InitializeComponent();
             radioButton1.Checked = true;
             radioButton3.Checked = true;
@@ -138,6 +142,16 @@ namespace OOPFinal
         private void button4_Click_1(object sender, EventArgs e)
         {
             groupBox3.Visible = false;
+        }
+
+        private void start_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            if (MainMenu02.gameForm == null)
+            {
+                new GameForm(this).Show();
+            }
+            MainMenu02.gameForm.Show();
         }
     }
 }

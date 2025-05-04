@@ -354,6 +354,7 @@
             start.TabIndex = 0;
             start.Text = "START";
             start.UseVisualStyleBackColor = false;
+            start.Click += start_Click;
             // 
             // MainMenu02
             // 
