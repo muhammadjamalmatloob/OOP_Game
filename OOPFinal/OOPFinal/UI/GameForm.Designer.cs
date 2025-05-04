@@ -31,11 +31,11 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameForm));
             panel1 = new Panel();
-            label4 = new Label();
+            round = new Label();
             button1 = new Button();
             start = new Button();
-            label3 = new Label();
-            label2 = new Label();
+            enemy = new Label();
+            player = new Label();
             label1 = new Label();
             progressBar2 = new ProgressBar();
             progressBar1 = new ProgressBar();
@@ -56,11 +56,11 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveCaptionText;
-            panel1.Controls.Add(label4);
+            panel1.Controls.Add(round);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(start);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(label2);
+            panel1.Controls.Add(enemy);
+            panel1.Controls.Add(player);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(progressBar2);
             panel1.Controls.Add(progressBar1);
@@ -73,17 +73,17 @@
             panel1.Size = new Size(984, 661);
             panel1.TabIndex = 0;
             // 
-            // label4
+            // round
             // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Black;
-            label4.Font = new Font("Showcard Gothic", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.Goldenrod;
-            label4.Location = new Point(324, 582);
-            label4.Name = "label4";
-            label4.Size = new Size(332, 79);
-            label4.TabIndex = 7;
-            label4.Text = "ROUND 01";
+            round.AutoSize = true;
+            round.BackColor = Color.Black;
+            round.Font = new Font("Showcard Gothic", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            round.ForeColor = Color.Goldenrod;
+            round.Location = new Point(324, 582);
+            round.Name = "round";
+            round.Size = new Size(332, 79);
+            round.TabIndex = 7;
+            round.Text = "ROUND 01";
             // 
             // button1
             // 
@@ -110,29 +110,29 @@
             start.Text = "PAUSE";
             start.UseVisualStyleBackColor = false;
             // 
-            // label3
+            // enemy
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Black;
-            label3.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.ForeColor = SystemColors.ControlLight;
-            label3.Location = new Point(767, 4);
-            label3.Name = "label3";
-            label3.Size = new Size(131, 45);
-            label3.TabIndex = 5;
-            label3.Text = "Enemy2";
+            enemy.AutoSize = true;
+            enemy.BackColor = Color.Black;
+            enemy.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            enemy.ForeColor = SystemColors.ControlLight;
+            enemy.Location = new Point(767, 4);
+            enemy.Name = "enemy";
+            enemy.Size = new Size(131, 45);
+            enemy.TabIndex = 5;
+            enemy.Text = "Enemy2";
             // 
-            // label2
+            // player
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Black;
-            label2.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = SystemColors.ControlLight;
-            label2.Location = new Point(87, 5);
-            label2.Name = "label2";
-            label2.Size = new Size(105, 45);
-            label2.TabIndex = 0;
-            label2.Text = "Player";
+            player.AutoSize = true;
+            player.BackColor = Color.Black;
+            player.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            player.ForeColor = SystemColors.ControlLight;
+            player.Location = new Point(87, 5);
+            player.Name = "player";
+            player.Size = new Size(105, 45);
+            player.TabIndex = 0;
+            player.Text = "Player";
             // 
             // label1
             // 
@@ -220,6 +220,11 @@
             pictureBox3.TabIndex = 0;
             pictureBox3.TabStop = false;
             // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Tick += gameTimerTick;
+            // 
             // GameForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -229,6 +234,10 @@
             Name = "GameForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "GameForm";
+            Load += Game_Load;
+            KeyDown += Is_Key_Down;
+            KeyPress += Is_KeyPress;
+            KeyUp += Is_KeyUp;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -249,12 +258,12 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private Label label1;
-        private Label label3;
-        private Label label2;
+        private Label enemy;
+        private Label player;
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
         private Button button1;
         private Button start;
-        private Label label4;
+        private Label round;
     }
 }
