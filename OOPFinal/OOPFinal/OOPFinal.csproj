@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BL\" />
     <Folder Include="DL\" />
   </ItemGroup>
 

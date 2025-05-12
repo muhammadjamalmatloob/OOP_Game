@@ -92,6 +92,7 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Level";
             groupBox3.Visible = false;
+            groupBox3.Enter += groupBox3_Enter;
             // 
             // radioButton5
             // 

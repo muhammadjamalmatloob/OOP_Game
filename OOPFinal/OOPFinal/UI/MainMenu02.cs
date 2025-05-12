@@ -12,7 +12,7 @@ using OOPFinal.Utility;
 
 namespace OOPFinal
 {
-    
+
     public partial class MainMenu02 : Form
     {
         public static GameForm gameForm;
@@ -152,6 +152,11 @@ namespace OOPFinal
                 new GameForm(this).Show();
             }
             MainMenu02.gameForm.Show();
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
